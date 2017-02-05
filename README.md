@@ -82,6 +82,7 @@ total_cost = lambda x : x[0][2] + heuristic(x[0][0], problem)
 
 ##### findPathToClosestDot :
 * Uses BFS to find the path to the closest food. Since BFS always finds the shortest number of steps to the food, we employ BFS as our search Strategy.
+
 ##### AnyFoodSearchProblem.isGoalState :
 * Since we want the shortest path to any food, we check if the give state is a food or not, by cross referencing the problem's boolean food list.
 ```python
